@@ -12,7 +12,7 @@
     "@angular/platform-browser": "^8.2.14",
     "@angular/platform-browser-dynamic": "^8.2.14",
     "@angular/router": "^8.2.14",
-    "@swimlane/ngx-charts": "^13.0.0",
+    "@swimlane/ngx-charts": "^12.1.0",
     "core-js": "^3.4.8",
     "d3": "^4.10.2",
     "d3-array": "^1.2.1",
