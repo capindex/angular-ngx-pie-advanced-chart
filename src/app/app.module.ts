@@ -5,11 +5,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, NgxChartsModule, BrowserAnimationsModule ],
-  declarations: [ AppComponent, HelloComponent ],
+  imports:      [ 
+    BrowserModule, 
+    FormsModule,
+    NgxChartsModule,
+    BrowserAnimationsModule 
+],
+  declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
